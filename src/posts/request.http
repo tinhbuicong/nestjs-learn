@@ -1,0 +1,14 @@
+### create post
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "post3",
+    "categoryId": 3,
+    "image": "url3",
+    "description": "description3"
+}
+
+### get posts
+GET http://localhost:3000/posts
+Content-Type: application/json
